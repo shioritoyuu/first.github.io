@@ -1,16 +1,45 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing:border-box;
 }
 .clear{
 	clear:both;
 }
 
-header{
-	background-color:rgba(255,255,255,0.5);
-	height:50px;
-	padding:15px 0;
+.container{
+	width:auto;
+	box-sizing:border-box;
+	padding:0 20px 0 20px;
+	margin:0 auto;
 }
+
+.fa-align-justify {
+  color: white;
+  float: right;
+  font-size: 40px;
+  padding: 17px 0;
+  text-align:center;
+  position:relative;
+  top:0;
+  right:0;
+  z-index:10;
+  /* displayをnoneに指定してください */
+  display:none;
+}
+
+
+
+header{
+	background-color:rgba(176,195,227,0.5);
+	height:65px;
+	padding:15px 20px;
+	width:100%;
+	box-sizing:border-box;
+	position:fixed;
+}
+
+
 .header-left p{
 	color:rgba(255,255,255,0.5);
 	font-family: 'Quicksand', sans-serif;
@@ -23,17 +52,28 @@ li a{
 	font-family: 'Quicksand', sans-serif;
 	padding:25px;
 }
+ul{
+	position:relative;
+	top:0;
+	right:0;
+	z-index:9;
+}
+
+p{
+	text-align: center;
+}
 
 header{
 	margin:0;
+	width:100%;
 }
 
 .menu{
-	color:white;
+	color:gray;
 }
 
 body{
-	background-color:black;
+	background-color:white;
 	
 }
 .header-right li{
@@ -44,11 +84,68 @@ body{
 	transition:all 1s;
 }
 .header-right li:hover{
-	background-color:rgba(255,255,255,0.8);
+	background-color:rgba(255,255,255,0.3);
 	padding:0 55px;
 }
 
 .top-wrapper{
     width:100%;
     height:500px;
+}
+
+.images{
+	width:50%;
+	height:auto;
+	/*margin:50px auto;*/
+	display:inline-block;
+	box-sizing:border-box;
+	vertical-align:middle;
+}
+
+.image-content{
+	height:auto;
+	padding:100px 0 50px 0;
+	text-align:center;
+	/* display:block; */
+	background-color:rgba(110,96,81,0.2);
+	width:100%;
+	box-sizing:border-box;
+}
+
+.image-size{
+	margin:0 auto;
+	width:50%;
+}
+
+.images img{
+	/* width: 50%; */
+	width:80%;
+	max-width:350px;
+	display:inline-block;
+	margin:50px auto;
+}
+
+.mag{
+	/*display:inline-block;*/
+	/*width:400px;*/
+	/*padding:40px 60px 50px 0;*/
+}
+
+.corster{
+	/*display:inline-block;*/
+	/*width:300px;*/
+	/*padding:30px 0px 20px 50px;*/
+}
+
+
+.movie-content{
+	height:auto;
+	background-color:rgba(110,96,81,0.2);
+	padding: 50px 0;
+}
+
+.movies{
+	border-top:1px solid rgba(58,63,77,0.5);
+	padding:15px 0;
+	
 }
