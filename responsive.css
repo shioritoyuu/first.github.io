@@ -1,0 +1,19 @@
+@media (max-width:1000px){
+	.image-size{
+		width:80%;
+	}
+}
+
+
+@media (max-width:700px){
+	.fa-align-justify{
+		display:inline-block;
+	}
+	ul{
+		display:none;
+	}
+	.image-size{
+		width:100%;
+	}
+	
+}
