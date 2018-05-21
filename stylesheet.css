@@ -177,3 +177,74 @@ body{
 	background-color:burlywood;
 	opacity:0.5;
 }
+
+nav.menu{ 
+	width:25px; 
+	height:30px; 
+	top: 80px; 
+	right:10px; 
+	position:fixed; 
+	cursor:pointer; 
+	overflow:hidden; 
+	z-index:9999; 
+}
+
+nav .menu1{
+	width:25px;
+	height:2px;
+	background-color: #000;
+	top:0px; position:absolute;
+}
+
+nav .menu2{ 
+	width:25px; 
+	height:2px; 
+	background-color: #000; 
+	top:8px; 
+	position:absolute; 
+}
+
+nav .menu3{ 
+	width:25px; 
+	height:2px; 
+	background-color: #000; 
+	top:16px; 
+	position:absolute; 
+}
+
+
+nav .menu1,nav .menu2,nav .menu3{ 
+	transition: all 0.5s ease-out; 
+	-o-transition: all 0.5s ease-out; 
+	/* Opera */ 
+	-moz-transition: all 0.5s ease-out; 
+	/* Firefox */
+	-webkit-transition: all 0.5s ease-out; 
+	/* GoogleChrome, Safari */ 
+	-ms-transition: all 0.5s ease-out; 
+	/* IE */ 
+}
+
+nav .menuclick1		{ 
+	top:8px; 
+	-o-transform: rotate(405deg); 
+	-moz-transform: rotate(405deg); 
+	-webkit-transform: rotate(405deg);
+	-ms-transform: rotate(405deg); 
+	transform: rotate(405deg); 
+}
+
+
+
+nav .menuclick2		{ 
+	background-color:rgba(255,255,255,0);  
+}
+
+nav .menuclick3		{ 
+	top:8px; 
+	-o-transform: rotate(-405deg); 
+	-moz-transform: rotate(-405deg);
+	-webkit-transform: rotate(-405deg); 
+	-ms-transform: rotate(-405deg); 
+	transform: rotate(-405deg); 
+}
